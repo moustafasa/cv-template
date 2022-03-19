@@ -1,0 +1,13 @@
+.body {
+  display: flex;
+  align-content: stretch;
+  width: 280mm;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

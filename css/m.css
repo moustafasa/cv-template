@@ -1,0 +1,50 @@
+:root {
+  --main-padding: 20px;
+}
+
+/* start header */
+header {
+  display: flex;
+  align-items: center;
+  padding: calc(var(--main-padding) / 2);
+}
+header .img {
+  padding: calc(var(--main-padding) / 2);
+}
+header .img img {
+  width: 80px;
+  display: block;
+  max-width: 100%;
+}
+header .info {
+}
+
+header .info .name {
+  margin: 0;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-size: 40px;
+  line-height: 1;
+}
+
+header .info .contact {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+header .info .profession {
+  display: block;
+}
+header .info .email {
+}
+header .info .email i {
+}
+header .info span:last-of-type {
+}
+header .info span:last-of-type i {
+}
+
+/* end header */
+
+.body {
+  display: flex;
+}
